@@ -93,7 +93,7 @@ const printNumber = () => {
     userTurnCntText.textContent = `${cnt} 번째`;
 }
 ```
-- children.prototype를 사용해 main-contain의 자식요소를 모두 불러와 textContent를 바꾸기로 하였다. 
+- children을 사용해 main-contain의 자식요소를 모두 불러와 textContent를 바꾸기로 하였다. 
 - 랜덤 숫자가 들어있는 numbers 배열에 forEach를 통해 numbers의 값을 순서대로 main-contain의 자식요소에 넣어줬다.
 - printNumber 함수를 실행하면 숫자가 화면에 그려진다.
 
